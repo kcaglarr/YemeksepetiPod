@@ -7,15 +7,15 @@
 
 import Foundation
 
-class YemeksepetiPod {
+open class YemeksepetiPod {
     
     let name = "Yemeksepeti & Patika Bootcamp"
     
-    func sum(x:Int, y:Int) -> Int {
+    open func sum(x:Int, y:Int) -> Int {
         return x + y
     }
     
-    func multiply(x:Int, y:Int) -> Int {
+    open func multiply(x:Int, y:Int) -> Int {
         return x * y
     }
 }
