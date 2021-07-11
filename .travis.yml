@@ -1,0 +1,4 @@
+# Configuration
+language: objective-c
+osx_image: xcode12.4
+xcode_sdk: iphonesimulator11.0
