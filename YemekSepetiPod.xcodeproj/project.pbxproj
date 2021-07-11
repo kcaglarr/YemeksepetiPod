@@ -16,6 +16,7 @@
 		71130A31269AFA9E00B45618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71130A2F269AFA9E00B45618 /* Main.storyboard */; };
 		71130A33269AFAA000B45618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71130A32269AFAA000B45618 /* Assets.xcassets */; };
 		71130A36269AFAA000B45618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71130A34269AFAA000B45618 /* LaunchScreen.storyboard */; };
+		71130A3F269AFBD700B45618 /* YemeksepetiPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130A3E269AFBD700B45618 /* YemeksepetiPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		71130A32269AFAA000B45618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71130A35269AFAA000B45618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71130A37269AFAA000B45618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71130A3E269AFBD700B45618 /* YemeksepetiPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeksepetiPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		711309FD269AFA4000B45618 = {
 			isa = PBXGroup;
 			children = (
+				71130A3E269AFBD700B45618 /* YemeksepetiPod.swift */,
 				71130A09269AFA4000B45618 /* YemekSepetiPod */,
 				71130A14269AFA4000B45618 /* YemekSepetiPodTests */,
 				71130A28269AFA9E00B45618 /* YemekSepetiExample */,
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					71130A06269AFA4000B45618 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					71130A0F269AFA4000B45618 = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71130A3F269AFBD700B45618 /* YemeksepetiPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		71130A1C269AFA4000B45618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M2ZVLTD873;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		71130A1D269AFA4000B45618 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M2ZVLTD873;
@@ -486,6 +494,7 @@
 		71130A1F269AFA4000B45618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2ZVLTD873;
 				INFOPLIST_FILE = YemekSepetiPodTests/Info.plist;
@@ -504,6 +513,7 @@
 		71130A20269AFA4000B45618 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2ZVLTD873;
 				INFOPLIST_FILE = YemekSepetiPodTests/Info.plist;
