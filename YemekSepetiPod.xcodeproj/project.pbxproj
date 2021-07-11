@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71130A11269AFA4000B45618 /* YemekSepetiPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71130A07269AFA4000B45618 /* YemekSepetiPod.framework */; };
+		71130A16269AFA4000B45618 /* YemekSepetiPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130A15269AFA4000B45618 /* YemekSepetiPodTests.swift */; };
+		71130A18269AFA4000B45618 /* YemekSepetiPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 71130A0A269AFA4000B45618 /* YemekSepetiPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71130A2A269AFA9E00B45618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130A29269AFA9E00B45618 /* AppDelegate.swift */; };
+		71130A2C269AFA9E00B45618 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130A2B269AFA9E00B45618 /* SceneDelegate.swift */; };
+		71130A2E269AFA9E00B45618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130A2D269AFA9E00B45618 /* ViewController.swift */; };
+		71130A31269AFA9E00B45618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71130A2F269AFA9E00B45618 /* Main.storyboard */; };
+		71130A33269AFAA000B45618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71130A32269AFAA000B45618 /* Assets.xcassets */; };
+		71130A36269AFAA000B45618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71130A34269AFAA000B45618 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71130A12269AFA4000B45618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711309FE269AFA4000B45618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71130A06269AFA4000B45618;
+			remoteInfo = YemekSepetiPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71130A07269AFA4000B45618 /* YemekSepetiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YemekSepetiPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71130A0A269AFA4000B45618 /* YemekSepetiPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YemekSepetiPod.h; sourceTree = "<group>"; };
+		71130A0B269AFA4000B45618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71130A10269AFA4000B45618 /* YemekSepetiPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemekSepetiPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71130A15269AFA4000B45618 /* YemekSepetiPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSepetiPodTests.swift; sourceTree = "<group>"; };
+		71130A17269AFA4000B45618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71130A27269AFA9E00B45618 /* YemekSepetiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemekSepetiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71130A29269AFA9E00B45618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71130A2B269AFA9E00B45618 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71130A2D269AFA9E00B45618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71130A30269AFA9E00B45618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71130A32269AFAA000B45618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71130A35269AFAA000B45618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71130A37269AFAA000B45618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71130A04269AFA4000B45618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A0D269AFA4000B45618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130A11269AFA4000B45618 /* YemekSepetiPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A24269AFA9E00B45618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711309FD269AFA4000B45618 = {
+			isa = PBXGroup;
+			children = (
+				71130A09269AFA4000B45618 /* YemekSepetiPod */,
+				71130A14269AFA4000B45618 /* YemekSepetiPodTests */,
+				71130A28269AFA9E00B45618 /* YemekSepetiExample */,
+				71130A08269AFA4000B45618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71130A08269AFA4000B45618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71130A07269AFA4000B45618 /* YemekSepetiPod.framework */,
+				71130A10269AFA4000B45618 /* YemekSepetiPodTests.xctest */,
+				71130A27269AFA9E00B45618 /* YemekSepetiExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71130A09269AFA4000B45618 /* YemekSepetiPod */ = {
+			isa = PBXGroup;
+			children = (
+				71130A0A269AFA4000B45618 /* YemekSepetiPod.h */,
+				71130A0B269AFA4000B45618 /* Info.plist */,
+			);
+			path = YemekSepetiPod;
+			sourceTree = "<group>";
+		};
+		71130A14269AFA4000B45618 /* YemekSepetiPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				71130A15269AFA4000B45618 /* YemekSepetiPodTests.swift */,
+				71130A17269AFA4000B45618 /* Info.plist */,
+			);
+			path = YemekSepetiPodTests;
+			sourceTree = "<group>";
+		};
+		71130A28269AFA9E00B45618 /* YemekSepetiExample */ = {
+			isa = PBXGroup;
+			children = (
+				71130A29269AFA9E00B45618 /* AppDelegate.swift */,
+				71130A2B269AFA9E00B45618 /* SceneDelegate.swift */,
+				71130A2D269AFA9E00B45618 /* ViewController.swift */,
+				71130A2F269AFA9E00B45618 /* Main.storyboard */,
+				71130A32269AFAA000B45618 /* Assets.xcassets */,
+				71130A34269AFAA000B45618 /* LaunchScreen.storyboard */,
+				71130A37269AFAA000B45618 /* Info.plist */,
+			);
+			path = YemekSepetiExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71130A02269AFA4000B45618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130A18269AFA4000B45618 /* YemekSepetiPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71130A06269AFA4000B45618 /* YemekSepetiPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71130A1B269AFA4000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiPod" */;
+			buildPhases = (
+				71130A02269AFA4000B45618 /* Headers */,
+				71130A03269AFA4000B45618 /* Sources */,
+				71130A04269AFA4000B45618 /* Frameworks */,
+				71130A05269AFA4000B45618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemekSepetiPod;
+			productName = YemekSepetiPod;
+			productReference = 71130A07269AFA4000B45618 /* YemekSepetiPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71130A0F269AFA4000B45618 /* YemekSepetiPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71130A1E269AFA4000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiPodTests" */;
+			buildPhases = (
+				71130A0C269AFA4000B45618 /* Sources */,
+				71130A0D269AFA4000B45618 /* Frameworks */,
+				71130A0E269AFA4000B45618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71130A13269AFA4000B45618 /* PBXTargetDependency */,
+			);
+			name = YemekSepetiPodTests;
+			productName = YemekSepetiPodTests;
+			productReference = 71130A10269AFA4000B45618 /* YemekSepetiPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71130A26269AFA9E00B45618 /* YemekSepetiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71130A38269AFAA000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiExample" */;
+			buildPhases = (
+				71130A23269AFA9E00B45618 /* Sources */,
+				71130A24269AFA9E00B45618 /* Frameworks */,
+				71130A25269AFA9E00B45618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemekSepetiExample;
+			productName = YemekSepetiExample;
+			productReference = 71130A27269AFA9E00B45618 /* YemekSepetiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711309FE269AFA4000B45618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					71130A06269AFA4000B45618 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					71130A0F269AFA4000B45618 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					71130A26269AFA9E00B45618 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 71130A01269AFA4000B45618 /* Build configuration list for PBXProject "YemekSepetiPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711309FD269AFA4000B45618;
+			productRefGroup = 71130A08269AFA4000B45618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71130A06269AFA4000B45618 /* YemekSepetiPod */,
+				71130A0F269AFA4000B45618 /* YemekSepetiPodTests */,
+				71130A26269AFA9E00B45618 /* YemekSepetiExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71130A05269AFA4000B45618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A0E269AFA4000B45618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A25269AFA9E00B45618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130A36269AFAA000B45618 /* LaunchScreen.storyboard in Resources */,
+				71130A33269AFAA000B45618 /* Assets.xcassets in Resources */,
+				71130A31269AFA9E00B45618 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71130A03269AFA4000B45618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A0C269AFA4000B45618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130A16269AFA4000B45618 /* YemekSepetiPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71130A23269AFA9E00B45618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71130A2E269AFA9E00B45618 /* ViewController.swift in Sources */,
+				71130A2A269AFA9E00B45618 /* AppDelegate.swift in Sources */,
+				71130A2C269AFA9E00B45618 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71130A13269AFA4000B45618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71130A06269AFA4000B45618 /* YemekSepetiPod */;
+			targetProxy = 71130A12269AFA4000B45618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71130A2F269AFA9E00B45618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71130A30269AFA9E00B45618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71130A34269AFAA000B45618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71130A35269AFAA000B45618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71130A19269AFA4000B45618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71130A1A269AFA4000B45618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71130A1C269AFA4000B45618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YemekSepetiPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71130A1D269AFA4000B45618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YemekSepetiPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71130A1F269AFA4000B45618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = YemekSepetiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71130A20269AFA4000B45618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = YemekSepetiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71130A39269AFAA000B45618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = YemekSepetiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71130A3A269AFAA000B45618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = YemekSepetiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.YemekSepetiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71130A01269AFA4000B45618 /* Build configuration list for PBXProject "YemekSepetiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130A19269AFA4000B45618 /* Debug */,
+				71130A1A269AFA4000B45618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71130A1B269AFA4000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130A1C269AFA4000B45618 /* Debug */,
+				71130A1D269AFA4000B45618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71130A1E269AFA4000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130A1F269AFA4000B45618 /* Debug */,
+				71130A20269AFA4000B45618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71130A38269AFAA000B45618 /* Build configuration list for PBXNativeTarget "YemekSepetiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71130A39269AFAA000B45618 /* Debug */,
+				71130A3A269AFAA000B45618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711309FE269AFA4000B45618 /* Project object */;
+}
